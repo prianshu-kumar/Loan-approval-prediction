@@ -1,5 +1,7 @@
 # 🏦 Loan Approval Prediction using Machine Learning
 
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-red?logo=streamlit)](https://loan-approval-prediction-prianshu.streamlit.app/)
+
 A supervised machine learning project that predicts whether a loan application will be **Approved or Rejected** using a complete **end-to-end ML pipeline** with preprocessing, model training, and hyperparameter tuning.
 
 This project is built using industry-standard practices like:
