@@ -139,9 +139,9 @@ if submitted:
         if score is not None:
             st.metric("Approval probability", f"{score:.1%}")
 
-        with st.container():
-            st.markdown("### Input summary")
-            st.write(input_data.T.rename(columns={0: "Value"}))
+        # with st.container():
+        #     st.markdown("### Input summary")
+        #     st.write(input_data.T.rename(columns={0: "Value"}))
 
         with st.expander("Model output details"):
             st.write({"prediction": prediction[0], "confidence": score})
